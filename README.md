@@ -60,6 +60,7 @@ sudo apt install ping dnsutils
 
 ```bash
 chmod +x bedrock_server
+```
 ```bash
 ./bedrock_server
 ```

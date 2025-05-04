@@ -55,3 +55,11 @@ sudo apt install ping dnsutils
 - Installed PuTTY and PSCP on my Windows machine to transfer files via SSH.
 - Used Command Prompt (instead of PowerShell) for better PSCP compatibility.
 - Unzipped the server files into a folder and made the binary executable:
+
+```bash
+chmod +x bedrock_server
+```bash
+./bedrock_server
+```
+Successful connections were established from both desktop and mobile devices.
+

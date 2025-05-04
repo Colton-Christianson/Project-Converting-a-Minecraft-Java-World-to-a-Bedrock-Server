@@ -104,3 +104,15 @@ give @player villager_spawn_egg 2
 
 ---
 
+## Project Outcome and Future Plans
+
+This project successfully enabled my family to enjoy our original Java Edition world together on various devices via Bedrock Edition. Along the way, I strengthened my skills in:
+- Linux server deployment
+- File permissions and process management
+- Network troubleshooting
+- Cross-platform application hosting
+
+##Future Goals:
+- Enable port forwarding for remote family access.
+- Research DNS workarounds for Nintendo Switch compatibility.
+

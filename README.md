@@ -50,7 +50,7 @@ I accessed BIOS, prioritized USB boot, and installed Ubuntu Server with default 
 ```bash
 sudo apt update
 sudo apt install ping dnsutils
-
+```
 ### Workaround:
 
     Installed PuTTY and PSCP on my Windows machine to transfer files via SSH.

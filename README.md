@@ -52,9 +52,6 @@ sudo apt update
 sudo apt install ping dnsutils
 ```
 ### Workaround:
-
-    Installed PuTTY and PSCP on my Windows machine to transfer files via SSH.
-
-    Used Command Prompt (instead of PowerShell) for better PSCP compatibility.
-
-    Unzipped the server files into a folder and made the binary executable:
+- Installed PuTTY and PSCP on my Windows machine to transfer files via SSH.
+- Used Command Prompt (instead of PowerShell) for better PSCP compatibility.
+- Unzipped the server files into a folder and made the binary executable:

@@ -66,3 +66,41 @@ chmod +x bedrock_server
 ```
 Successful connections were established from both desktop and mobile devices.
 
+---
+
+## Step 5: Importing the Converted World to the Server
+
+Initially, I attempted to place the converted world in the worlds directory and updated server.properties accordingly. Despite these efforts, the server generated a new world each time.
+Successful Method:
+
+1. Let the server generate its own default world folder.
+2. Deleted all contents from the generated folder:
+
+```bash
+rm -r*
+```
+
+3.Unzipped the converted world into that same folder.
+
+This method worked as expected, and the server loaded the intended world.
+
+---
+
+## Post-Installation Config
+
+- Used `screen` to run the server persistently in the background:
+
+```bash
+screen -S bedrock
+./bedrock_server
+```
+
+Then detached using `Ctrl + A, followed by `D`.
+- Noticed missing entities. Re-added villagers with:
+
+```bash
+give @player villager_spawn_egg 2
+```
+
+---
+

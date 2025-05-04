@@ -49,6 +49,8 @@ I accessed BIOS, prioritized USB boot, and installed Ubuntu Server with default 
 
 ```bash
 sudo apt update
+```
+```bash
 sudo apt install ping dnsutils
 ```
 ### Workaround:
